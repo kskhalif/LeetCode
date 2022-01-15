@@ -4,9 +4,9 @@ template<typename T>
 void removeDuplicates(std::vector<T>& list) 
 {
     if (list.size() == 0)
-        return 0;
+        return;
     if (list.size() == 1)
-        return 1;
+        return;
         
     int j = 0;
         
